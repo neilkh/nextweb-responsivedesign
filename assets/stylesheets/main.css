@@ -1,0 +1,469 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+header {
+	width: auto;
+	background-color: black;
+	height: 30px;
+	padding-left: 1.5%;
+	padding-right: 0.75%;
+	line-height: 30px;
+}
+nav li {
+	display: inline-block;
+}
+nav a {
+	text-decoration: none;
+	color: #555;
+	font-size: 14px;
+}
+nav a:hover {
+	color: #fff;
+}
+#leftnav {
+	float: left;
+}
+#leftnav li {
+	margin-left: 10px;
+}
+#rightnav {
+	float: right;
+}
+#rightnav li {
+	margin-right: 10px;
+}
+#social {
+	width: 100%;
+	background-color: white;
+	height: 50px;
+	line-height: 50px;
+	float: left;
+	padding-left: 1.5%;
+}
+#social a {
+	text-decoration: none;
+	color: #aaa;
+}
+#social img {
+	width: 19px;
+	height: 19px;
+}
+#social .sections {
+	margin-right: 10px;
+	padding-left: 1%;
+	text-transform: uppercase;
+}
+#social .sections:hover {
+	color: black;
+}
+span {
+	float: right;
+	padding-right: 2.5%;
+}
+span a {
+	margin-right: 10px;
+}
+#top {
+	width: 98.75%;
+	height: 476px;
+	margin: 0 auto;
+	margin-bottom: 100px;
+	background-color: #e2e2e2;
+}
+nav:after, #social:after, #top:after, #latest:after, #conference:after,
+ #funding:after, #articles1:after, #deals:after, footer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#main {
+	width: 61.5%;
+	height: 476px;
+	float: left;
+	background-color: green;
+	background-image: url("https://cdn3.tnwcdn.com/wp-content/blogs.dir/1/files/2017/05/bitcoin-796x391.png");
+	margin-top: 10px;
+}
+#top h1 {
+	color: black;
+	font-size: 3.8em;
+	font-weight: bold;
+}
+#top p {
+	color: gray;
+	font-size: 14px;
+}
+#second h1, #third h1 {
+	font-size: 2em;
+}
+#second {
+	width: 37.62%;
+	height: 233px;
+	float: right;
+	background-color: yellow;
+	background-image: url("https://cdn2.tnwcdn.com/wp-content/blogs.dir/1/files/2017/05/robot-reading-mythical-man-month-2.jpg");
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+#third {
+	width: 37.62%;
+	height: 233px;
+	float: right;
+	background-color: orange;
+	background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/multiplayer-gaming-796x398.jpg");
+}
+#latest {
+	height: 528px;
+	width: 90.15%;
+	margin: 0 auto;
+	background-color: #fff;
+	margin-bottom: 50px;
+}
+#latest h1, #conference h1, #deals h1, #funding h1 {
+	margin-bottom: 30px;
+}
+#articles1 h1 {
+	margin-bottom: 20px;
+}
+#latest div {
+	height: 206px;
+	width: 23%;
+	float: left;
+	background-color: #fff;
+	margin-right: 1.9%;
+	margin-bottom: 1.9%;
+}
+#conference {
+	height: 300px;
+	width: 90.15%;
+	margin: 0 auto;
+	background-color: #fff;
+}
+#conference div {
+	height: 226px;
+	width: 23%;
+	float: left;
+	background-color: #fff;
+	margin-right: 1.9%;
+}
+#funding {
+	height: 322px;
+	width: 90.15%;
+	margin: 0 auto;
+	background-color: #fff;
+}
+#funding div {
+	height: 272px;
+	width: 23%;
+	float: left;
+	background-color: #fff;
+	margin-right: 1.9%;
+}
+#articles1 {
+	height: 2025px;
+	width: 90.15%;
+	margin: 0 auto;
+	background-color: #fff;
+	margin-bottom: 5px;
+}
+#articles1 div {
+	height: 660px;
+	width: 31%;
+	float: left;
+	background-color: #fff;
+	margin-right: 1.9%;
+	margin-bottom: 1.9%;
+}
+#deals {
+	height: 600px;
+	width: 90.15%;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	background-color: #fff;
+}
+#deals div {
+	height: 272px;
+	width: 23%;
+	float: left;
+	margin-right: 1.9%;
+	margin-bottom: 1.9%;
+	background-color: #fff;
+}
+footer {
+	background-color: black;
+	padding-top: 32px;
+}
+footer li {
+	margin-bottom: 5px;
+}
+footer a {
+	text-decoration: none;
+	color: #fff;
+}
+.fsections {
+	color: gray;
+}
+#events, #companies, #trending {
+	float: left;
+	margin-right: 7.8%;
+}
+#events {
+	margin-left: 3.8%;
+}
+#about {
+	display: block;
+}
+#about ul li {
+	display: inline-block;
+}
+#latest figure {
+	height: 136px;
+}
+#latest figure img {
+	height: 136px;
+	width: 100%;
+}
+#latest a, #conference a, #deals a, #articles1 a, #funding a {
+	text-decoration: none;
+	color: #000;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 18px;
+}
+#articles1 a {
+	color: #808080;
+	font-weight: normal;
+}
+#latest h1, #conference h1, #deals h1, #articles1 h1, #funding h1 {
+	color: #f42;
+	font-size: 28px;
+}
+.author {
+	color: gray;
+}
+#conference figure {
+	height: 136px;
+}
+#conference figure img {
+	height: 136px;
+	width: 100%;
+}
+#deals figure { 
+	height: 198px;
+}
+#deals figure img {
+	height: 198px;
+	width: 100%;
+}
+#funding figure {
+	height: 200px;
+}
+#funding figure img {
+	height: 200px;
+	width: 100%;
+}
+#articles1 figure {
+	height: 277px
+}
+#articles1 figure img {
+	height: 277px;
+	width: 100%;
+}
+#articles1 figcaption ul li {
+	list-style-type: circle;
+	border-bottom: 1px solid #e2e2e2;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+@media screen and (max-width: 1024px) {
+	#top {
+	height: 382px;
+	}
+	#main {
+	width: 66.43%;
+	height: 382px;
+	}
+#second {
+	width: 32.8%;
+	height: 185px;
+	}
+#third {
+	width: 32.8%;
+	height: 185px;
+	}
+#latest {
+	height: 770px;
+}
+#latest div {
+	height: 215px;
+	width: 30%;
+}
+#conference {
+	height: 520px;
+}
+#conference div {
+	height: 225px;
+	width: 30%;
+}
+#conf4 {
+	margin-top: 1.9%;
+}
+#funding div {
+	height: 250px;
+	width: 30%;
+	float: left;
+	background-color: #fff;
+	margin-right: 1.9%;
+}
+#fund4 {
+	display: none;
+}
+#articles1 {
+	height: 3400px;
+}
+#articles1 div {
+	height: 660px;
+	width: 47.04%;
+	float: left;
+	background-color: #fff;
+	margin-right: 1.9%;
+	margin-bottom: 1.9%;
+}
+#deals {
+	height: 900px;
+}
+#deals div {
+	height: 272px;
+	width: 31.4%;
+}
+}
+
+@media screen and (max-width: 780px) {
+	header {
+		display: none;
+	}
+	#social .sections {
+		display: none;
+	}
+	#top {
+	height: 513px;
+	}
+	#main, #second, #third {
+	width: 100%;
+	display: block;
+	height: 165px;
+	margin-bottom: 5px;
+	}
+#latest {
+	height: 740px;
+	margin-bottom: 100px;
+}
+#latest figure img, #conference figure img, #deals figure img {
+	width: 75px;
+	height: 75px;
+}
+#latest div {
+	height: 75px;
+	width: 100%;
+	display: block;
+	margin-bottom: 10px;
+}
+#funding {
+	height: 700px;
+	margin-bottom: 100px;
+}
+#funding div {
+	height: 200px;
+	width: 100%;
+	margin-bottom: 10px;
+	background-color: #fff;
+}
+#fund4 {
+	display: none;
+}
+#latest figure, #conference figure, #funding figure, #deals figure {
+	height: 75px;
+	width: 75px;
+}
+#latest figcaption, #conference figcaption, #funding figcaption, #deals figcaption {
+	margin-left: 80px;
+	position: relative;
+	bottom: 50px;
+}
+#conference {
+	height: 388px;
+	margin-bottom: 100px;
+}
+#conference div {
+	height: 75px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+#conf4 {
+	margin-top: ;
+}
+
+#articles1 {
+	height: 8100px;
+}
+#articles1 div {
+	height: 880px;
+	width: 100%;
+	display: block;
+	background-color: #fff;
+	margin-right: none;
+}
+#deals {
+	height: 700px;
+	margin-bottom: 200px;
+}
+#deals div {
+	height: 75px;
+	width: 100%;
+}
+}
